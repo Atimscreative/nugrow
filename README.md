@@ -9,7 +9,7 @@
 
 ### Demo Screeshots
 
-![NuGrow Desktop Demo](./images/Capture.JPG "Desktop Demo")
+![NuGrow Desktop Demo](./images/demo.jpg "Desktop Demo")
 
 ### Contact
 
