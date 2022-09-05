@@ -73,13 +73,14 @@ a {
   text-decoration: none !important;
 }
 body {
-  overflow-x: hidden !important;
+  overflow-x: hidden;
+  box-sizing: border-box;
   font-family: "Nunito", sans-serif;
   font-family: "Rubik", sans-serif;
 }
 
 section {
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 /* BACK TO TOP */
@@ -783,7 +784,6 @@ section {
     url(images/why-us.png);
   background-size: contain;
   overflow: hidden;
-  box-sizing: border-box !important;
   padding: 30px;
   box-shadow: 0 6px 24px #0000000d;
 }
