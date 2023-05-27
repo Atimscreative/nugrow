@@ -4,27 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Primary Meta Tags -->
+    <title>NuGrow — Digital Marketing Agency Template</title>
+    <meta name="title" content="NuGrow — Digital Marketing Agency Template" />
+    <meta
+      name="description"
+      content="Nugrow Digital Marketing Agency is a leading provider of comprehensive digital marketing solutions tailored to empower businesses in the online world. With a team of skilled experts and a passion for driving growth, Nugrow combines cutting-edge strategies, data-driven insights, and innovative technologies to help clients achieve their marketing objectives and maximize their online presence."
+    />
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://github.com/Atimscreative/nugrow" />
+    <meta property="og:url" content="https://metatags.io/" />
     <meta
       property="og:title"
-      content="NuGrow | Digital Marketing Agency Template."
+      content="NuGrow — Digital Marketing Agency Template"
     />
     <meta
       property="og:description"
-      content="NuGrow is digital marketing fully responsive website template build with HTML, CSS, JavaScript and Bootstrap."
+      content="Nugrow Digital Marketing Agency is a leading provider of comprehensive digital marketing solutions tailored to empower businesses in the online world. With a team of skilled experts and a passion for driving growth, Nugrow combines cutting-edge strategies, data-driven insights, and innovative technologies to help clients achieve their marketing objectives and maximize their online presence."
     />
     <meta
       property="og:image"
-      content="https://images.app.goo.gl/xYiUjN5tEs4EEj7G8"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
     />
-    <title>
-      NuGrow | Digital Marketing Agency Template.
-    </title>
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta
+      property="twitter:title"
+      content="NuGrow — Digital Marketing Agency Template"
+    />
+    <meta
+      property="twitter:description"
+      content="Nugrow Digital Marketing Agency is a leading provider of comprehensive digital marketing solutions tailored to empower businesses in the online world. With a team of skilled experts and a passion for driving growth, Nugrow combines cutting-edge strategies, data-driven insights, and innovative technologies to help clients achieve their marketing objectives and maximize their online presence."
+    />
+    <meta
+      property="twitter:image"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+    />
     <link rel="icon" href="images/favicon.png" />
-    <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="styles.css" />
+
     <!-- BOOTSTRAP CSS-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
@@ -39,10 +59,17 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <!-- BACK TO TOP -->
-    <button type="button" class="btn rounded-circle" id="backTop">
+    <button
+      type="button"
+      class="btn rounded-circle"
+      aria-label="back to top"
+      id="backTop"
+    >
       <i class="bi bi-arrow-up"></i>
     </button>
     <!-- TOP HEADER -->
@@ -81,7 +108,7 @@
           <a class="navbar-brand" href="#">
             <img src="images/logo-02.png" alt="logo image" />
           </a>
-          <a
+          <div
             class="navbar-toggler"
             type="button"
             data-bs-toggle="offcanvas"
@@ -103,7 +130,7 @@
                 />
               </svg>
             </span>
-          </a>
+          </div>
           <div
             class="justify-content-lg-end offcanvas-lg offcanvas-start"
             data-bs-scroll="true"
@@ -197,6 +224,8 @@
                 <img
                   src="images/Business-convo-square.jpg"
                   class="img-fluid"
+                  width="469px"
+                  height="431px"
                   alt="man and woman discusing"
                 />
               </div>
@@ -581,21 +610,23 @@
               <figure class="portfolio-wrap">
                 <img
                   src="images/portfolio/portfolio-1.jpg"
+                  loading="lazy"
                   class="img-fluid"
                   alt="portfolio"
                 />
                 <figcaption
                   class="portfolio-info d-flex justify-content-center align-items-center flex-column"
                 >
-                  <h4 class="img-title">Product</h4>
+                  <h3 class="img-title">Product</h3>
                   <div class="portfolio-links mt-2">
-                    <a
-                      href="#"
+                    <span
+                      id="view-img"
                       class="img-icon-link d-inline-flex justify-content-center align-items-center"
                       ><i class="bi bi-plus"></i
-                    ></a>
+                    ></span>
                     <a
                       href="#"
+                      aria-label="icon"
                       class="img-icon-link d-inline-flex justify-content-center align-items-center"
                       ><i class="bi bi-link"></i
                     ></a>
@@ -616,15 +647,16 @@
                 <figcaption
                   class="portfolio-info d-flex justify-content-center align-items-center flex-column"
                 >
-                  <h4 class="img-title">Website</h4>
+                  <h3 class="img-title">Website</h3>
                   <div class="portfolio-links mt-2">
-                    <a
-                      href="#"
+                    <span
+                      id="view-img"
                       class="img-icon-link d-inline-flex justify-content-center align-items-center"
                       ><i class="bi bi-plus"></i
-                    ></a>
+                    ></span>
                     <a
                       href="#"
+                      aria-label="icon"
                       class="img-icon-link d-inline-flex justify-content-center align-items-center"
                       ><i class="bi bi-link"></i
                     ></a>
@@ -645,15 +677,16 @@
                 <figcaption
                   class="portfolio-info d-flex justify-content-center align-items-center flex-column"
                 >
-                  <h4 class="img-title">Branding</h4>
+                  <h3 class="img-title">Branding</h3>
                   <div class="portfolio-links mt-2">
-                    <a
-                      href="#"
+                    <span
+                      id="view-img"
                       class="img-icon-link d-inline-flex justify-content-center align-items-center"
                       ><i class="bi bi-plus"></i
-                    ></a>
+                    ></span>
                     <a
                       href="#"
+                      aria-label="icon"
                       class="img-icon-link d-inline-flex justify-content-center align-items-center"
                       ><i class="bi bi-link"></i
                     ></a>
@@ -674,15 +707,16 @@
                 <figcaption
                   class="portfolio-info d-flex justify-content-center align-items-center flex-column"
                 >
-                  <h4 class="img-title">Product</h4>
+                  <h3 class="img-title">Product</h3>
                   <div class="portfolio-links mt-2">
-                    <a
-                      href="#"
+                    <span
+                      id="view-img"
                       class="img-icon-link d-inline-flex justify-content-center align-items-center"
                       ><i class="bi bi-plus"></i
-                    ></a>
+                    ></span>
                     <a
                       href="#"
+                      aria-label="icon"
                       class="img-icon-link d-inline-flex justify-content-center align-items-center"
                       ><i class="bi bi-link"></i
                     ></a>
@@ -697,21 +731,23 @@
               <figure class="portfolio-wrap">
                 <img
                   src="images/portfolio/portfolio-5.jpg"
+                  loading="lazy"
                   class="img-fluid"
                   alt="portfolio"
                 />
                 <figcaption
                   class="portfolio-info d-flex justify-content-center align-items-center flex-column"
                 >
-                  <h4 class="img-title">Brandind</h4>
+                  <h3 class="img-title">Brandind</h3>
                   <div class="portfolio-links mt-2">
-                    <a
-                      href="#"
+                    <span
+                      id="view-img"
                       class="img-icon-link d-inline-flex justify-content-center align-items-center"
                       ><i class="bi bi-plus"></i
-                    ></a>
+                    ></span>
                     <a
                       href="#"
+                      aria-label="icon"
                       class="img-icon-link d-inline-flex justify-content-center align-items-center"
                       ><i class="bi bi-link"></i
                     ></a>
@@ -732,15 +768,16 @@
                 <figcaption
                   class="portfolio-info d-flex justify-content-center align-items-center flex-column"
                 >
-                  <h4 class="img-title">Website</h4>
+                  <h3 class="img-title">Website</h3>
                   <div class="portfolio-links mt-2">
-                    <a
-                      href="#"
+                    <span
+                      id="view-img"
                       class="img-icon-link d-inline-flex justify-content-center align-items-center"
                       ><i class="bi bi-plus"></i
-                    ></a>
+                    ></span>
                     <a
                       href="#"
+                      aria-label="icon"
                       class="img-icon-link d-inline-flex justify-content-center align-items-center"
                       ><i class="bi bi-link"></i
                     ></a>
@@ -755,21 +792,23 @@
               <figure class="portfolio-wrap">
                 <img
                   src="images/portfolio/portfolio-7.jpg"
+                  loading="lazy"
                   class="img-fluid"
                   alt="portfolio"
                 />
                 <figcaption
                   class="portfolio-info d-flex justify-content-center align-items-center flex-column"
                 >
-                  <h4 class="img-title">Product</h4>
+                  <h3 class="img-title">Product</h3>
                   <div class="portfolio-links mt-2">
-                    <a
-                      href="#"
+                    <span
+                      id="view-img"
                       class="img-icon-link d-inline-flex justify-content-center align-items-center"
                       ><i class="bi bi-plus"></i
-                    ></a>
+                    ></span>
                     <a
                       href="#"
+                      aria-label="icon"
                       class="img-icon-link d-inline-flex justify-content-center align-items-center"
                       ><i class="bi bi-link"></i
                     ></a>
@@ -790,15 +829,16 @@
                 <figcaption
                   class="portfolio-info d-flex justify-content-center align-items-center flex-column"
                 >
-                  <h4 class="img-title">Website</h4>
+                  <h3 class="img-title">Website</h3>
                   <div class="portfolio-links mt-2">
-                    <a
-                      href="#"
+                    <span
+                      id="view-img"
                       class="img-icon-link d-inline-flex justify-content-center align-items-center"
                       ><i class="bi bi-plus"></i
-                    ></a>
+                    ></span>
                     <a
                       href="#"
+                      aria-label="icon"
                       class="img-icon-link d-inline-flex justify-content-center align-items-center"
                       ><i class="bi bi-link"></i
                     ></a>
@@ -809,6 +849,13 @@
           </div>
         </div>
       </section>
+      <!-- LIGHTBOX FOR PORTFOLIO -->
+      <div class="lightbox">
+        <div class="lightbox-img">
+          <img src="" alt="portfolio" class="img-box" />
+        </div>
+        <i class="bi bi-x-lg close-box"></i>
+      </div>
       <!-- TESTIMONIALS -->
       <section id="testimonials">
         <div class="container">
@@ -838,6 +885,8 @@
                   <img
                     src="images/testimonials/testimonials-1.jpg"
                     alt="testifier"
+                    width="200"
+                    height="200"
                     class="rounded-circle"
                   />
                   <div class="testifier-info">
@@ -865,6 +914,8 @@
                   <img
                     src="images/testimonials/testimonials-2.jpg"
                     alt="testifier"
+                    width="200"
+                    height="200"
                     class="rounded-circle"
                   />
                   <div class="testifier-info">
@@ -892,6 +943,8 @@
                   <img
                     src="images/testimonials/testimonials-3.jpg"
                     alt="testifier"
+                    width="200"
+                    height="200"
                     class="rounded-circle"
                   />
                   <div class="testifier-info">
@@ -931,16 +984,16 @@
                   <div
                     class="social-icons d-flex align-items-center justify-content-center"
                   >
-                    <a href="#" class="mx-3">
+                    <a href="#" aria-label="icon" class="mx-3">
                       <i class="bi bi-facebook"></i>
                     </a>
-                    <a href="#" class="mx-3">
+                    <a href="#" aria-label="icon" class="mx-3">
                       <i class="bi bi-twitter"></i>
                     </a>
-                    <a href="#" class="mx-3">
+                    <a href="#" aria-label="icon" class="mx-3">
                       <i class="bi bi-instagram"></i>
                     </a>
-                    <a href="#" class="mx-3">
+                    <a href="#" aria-label="icon" class="mx-3">
                       <i class="bi bi-linkedin"></i>
                     </a>
                   </div>
@@ -964,16 +1017,16 @@
                   <div
                     class="social-icons d-flex align-items-center justify-content-center"
                   >
-                    <a href="#" class="mx-3">
+                    <a href="#" aria-label="icon" class="mx-3">
                       <i class="bi bi-facebook"></i>
                     </a>
-                    <a href="#" class="mx-3">
+                    <a href="#" aria-label="icon" class="mx-3">
                       <i class="bi bi-twitter"></i>
                     </a>
-                    <a href="#" class="mx-3">
+                    <a href="#" aria-label="icon" class="mx-3">
                       <i class="bi bi-instagram"></i>
                     </a>
-                    <a href="#" class="mx-3">
+                    <a href="#" aria-label="icon" class="mx-3">
                       <i class="bi bi-linkedin"></i>
                     </a>
                   </div>
@@ -997,16 +1050,16 @@
                   <div
                     class="social-icons d-flex align-items-center justify-content-center"
                   >
-                    <a href="#" class="mx-3">
+                    <a href="#" aria-label="icon" class="mx-3">
                       <i class="bi bi-facebook"></i>
                     </a>
-                    <a href="#" class="mx-3">
+                    <a href="#" aria-label="icon" class="mx-3">
                       <i class="bi bi-twitter"></i>
                     </a>
-                    <a href="#" class="mx-3">
+                    <a href="#" aria-label="icon" class="mx-3">
                       <i class="bi bi-instagram"></i>
                     </a>
-                    <a href="#" class="mx-3">
+                    <a href="#" aria-label="icon" class="mx-3">
                       <i class="bi bi-linkedin"></i>
                     </a>
                   </div>
@@ -1030,16 +1083,16 @@
                   <div
                     class="social-icons d-flex align-items-center justify-content-center"
                   >
-                    <a href="#" class="mx-3">
+                    <a href="#" aria-label="icon" class="mx-3">
                       <i class="bi bi-facebook"></i>
                     </a>
-                    <a href="#" class="mx-3">
+                    <a href="#" aria-label="icon" class="mx-3">
                       <i class="bi bi-twitter"></i>
                     </a>
-                    <a href="#" class="mx-3">
+                    <a href="#" aria-label="icon" class="mx-3">
                       <i class="bi bi-instagram"></i>
                     </a>
-                    <a href="#" class="mx-3">
+                    <a href="#" aria-label="icon" class="mx-3">
                       <i class="bi bi-linkedin"></i>
                     </a>
                   </div>
@@ -1267,8 +1320,8 @@
                     <figure class="blog-img w-100 h-100">
                       <img
                         src="images/blog/blog-1.jpg"
+                        loading="lazy"
                         alt="Blog Image Thumbnail"
-                        class="w-100 h-100"
                       />
                     </figure>
                     <div class="blog-content p-4">
@@ -1290,7 +1343,6 @@
                       <img
                         src="images/blog/blog-2.jpg"
                         alt="Blog Image Thumbnail"
-                        class="w-100 h-100"
                       />
                     </figure>
                     <div class="blog-content p-4">
@@ -1312,7 +1364,6 @@
                       <img
                         src="images/blog/blog-3.jpg"
                         alt="Blog Image Thumbnail"
-                        class="w-100 h-100"
                       />
                     </figure>
                     <div class="blog-content p-4">
@@ -1334,7 +1385,6 @@
                       <img
                         src="images/blog/blog-4.jpg"
                         alt="Blog Image Thumbnail"
-                        class="w-100 h-100"
                       />
                     </figure>
                     <div class="blog-content p-4">
@@ -1355,8 +1405,8 @@
                     <figure class="blog-img w-100 h-100">
                       <img
                         src="images/blog/blog-recent-1.jpg"
+                        loading="lazy"
                         alt="Blog Image Thumbnail"
-                        class="w-100 h-100"
                       />
                     </figure>
                     <div class="blog-content p-4">
@@ -1377,8 +1427,8 @@
                     <figure class="blog-img w-100 h-100">
                       <img
                         src="images/blog/blog-recent-2.jpg"
+                        loading="lazy"
                         alt="Blog Image Thumbnail"
-                        class="w-100 h-100"
                       />
                     </figure>
                     <div class="blog-content p-4">
@@ -1400,7 +1450,6 @@
                       <img
                         src="images/blog/blog-recent-3.jpg"
                         alt="Blog Image Thumbnail"
-                        class="w-100 h-100"
                       />
                     </figure>
                     <div class="blog-content p-4">
@@ -1494,12 +1543,8 @@
                 <div class="card-content">
                   <h3 class="card-title mb-2">Mail Here</h3>
 
-                  <a href="mailto:hello@luaz.com" class="card-link d-block"
-                    >hello@luaz.com</a
-                  >
-                  <a href="mailto:info@luaz.com" class="card-link d-block"
-                    >info@luaz.com</a
-                  >
+                  <a href="#" class="card-link d-block">hello@luaz.com</a>
+                  <a href="#" class="card-link d-block">info@luaz.com</a>
                 </div>
               </div>
             </div>
@@ -1601,7 +1646,7 @@
           <div class="col-12 mb-4 mb-xl-0 col-md-8 col-lg-12 col-xl-4">
             <div class="footer-links">
               <h3 class="mb-3">Subscribe To Newsletter</h3>
-              <form action="mailto:atimscreatives@gmail.com" class="newsletter">
+              <form action="#" class="newsletter">
                 <input
                   type="email"
                   name="email_address"
@@ -1632,8 +1677,6 @@
         </div>
       </div>
     </footer>
-    <!-- ISOTOPE -->
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <!-- MAIN JS -->
     <script src="script.js"></script>
     <!-- BOOTSTRAP JAVASCRIPT -->
@@ -1696,16 +1739,12 @@
         },
 
         breakpoints: {
-          640: {
+          768: {
             slidesPerView: 2,
             spaceBetween: 20,
           },
-          992: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
           1200: {
-            slidesPerView: 4,
+            slidesPerView: 3,
             spaceBetween: 20,
           },
         },
