@@ -6,7 +6,7 @@
   --color-dark: #3a376f;
   --color-hover: #4e4b7d;
   --title: #393f44;
-  --text: #868e96;
+  --text: #777f86;
   --text-light: #ffffffb3;
   --color-light: #c4c1f4;
   --color-lighter: #bdcaf2;
@@ -402,8 +402,8 @@ section {
   margin-top: 30px !important;
 }
 .portfolio-wrap img {
-  width: 400px;
-  height: 300px;
+  width: 100%;
+  height: auto;
   object-fit: cover;
   -webkit-transition: 700ms;
   transition: 700ms;
